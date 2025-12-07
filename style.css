@@ -81,6 +81,30 @@
 .carousel .carousel-inner .carousel-item img{
    filter:brightness(70%);
 }
+/* main section  */
+/* title section  */
+.section-title h5 {
+   color: #6cc118;
+   font-size: 1rem;
+   font-weight: bold;
+}
+.section-title h2 {
+   color: #6cc118;
+   font-weight: bold;
+   font-size: 1.875rem;
+   line-height: 0.8;
+}
+/* select online offline courses */
+.select-onl-off {
+   font-size: 1.25rem;
+}
+
+
+
+
+
+
+
 
 /* media query section  */
 @media screen and (max-width: 991px) {
