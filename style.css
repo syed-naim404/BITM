@@ -4,3 +4,20 @@
    margin: 0;
    font-family: sans-serif;
 }
+/* header section  */
+.header {
+   background-color: #e5e7eb;
+   padding: 5px 0;
+}
+.header .phone,
+.email,
+.login a,
+.reg a {
+   font-size: 14px;
+   color: #1f2937;
+   text-decoration: none;
+}
+.header .fa-solid {
+   font-size: 14px;
+   color: #6cc118;
+}
