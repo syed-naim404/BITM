@@ -21,3 +21,81 @@
    font-size: 14px;
    color: #6cc118;
 }
+/* navbar section  */
+.navbar {
+   background-color: #0551af;
+   padding: 8px 0;
+}
+.navbar .navbar-nav .nav-item .nav-link {
+   color: #fff;
+   font-size: 1rem;
+   padding: 0 12px;
+}
+.navbar .bitm-logo img {
+   width: 100px;
+}
+.navbar .basis-logo img {
+   width: 120px;
+}
+.navbar .navbar-toggler {
+   box-shadow: none;
+   border: none;
+}
+.navbar .navbar-toggler .bi {
+   font-size: 32px;
+   color: #e5e7eb;
+}
+/* hover effacted  border top navlink  */
+.navbar-nav .nav-item {
+   position: relative;
+}
+.hover-navlink .nav-item::after {
+   content: "";
+   height: 4px;
+   width: 0;
+   background-color: #6cc118;
+   position: absolute;
+   left: 0;
+   top: -30px;
+   transition: 0;
+}
+.hover-navlink .nav-item:hover::after {
+   width: 100%;
+   transition: 0.5s;
+   border-radius: 8px;
+}
+/* hover show dropdown item  */
+.navbar .dropdown:hover .dropdown-menu {
+   display: block;
+}
+.navbar .dropdown-menu-bg {
+   border: 1px solid rgba(108, 193, 24, 0.522);
+   border-top: 4px solid #6cc118;
+}
+.navbar .dropdown-menu-bg li .dropdown-item:hover {
+   background-color: #6cc118;
+   border-radius: 4px;
+   color: #fff;
+}
+
+/* media query section  */
+@media screen and (max-width: 991px) {
+   /* navbar bitm logo size decrease */
+   .navbar .bitm-logo img {
+      width: 70px;
+   }
+   /* navbar logo and toggler position changing */
+   .navbar .container {
+      position: relative;
+      height: 45px;
+   }
+   .navbar .container .navbar-toggler {
+      position: absolute;
+      left: 12px;
+   }
+   .navbar .container .bitm-logo {
+      position: absolute;
+      right: 0;
+      margin-right: 12px;
+   }
+}
