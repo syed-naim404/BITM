@@ -77,6 +77,10 @@
    border-radius: 4px;
    color: #fff;
 }
+/* carousel section  */
+.carousel .carousel-inner .carousel-item img{
+   filter:brightness(70%);
+}
 
 /* media query section  */
 @media screen and (max-width: 991px) {
