@@ -149,6 +149,13 @@
    transform: scale(1.1);
    border: 1px solid #6cc118;
 }
+/* card title 3 line show  */
+.text-overflow-ellipsis {
+   display: -webkit-box;
+   -webkit-line-clamp: 3;
+   -webkit-box-orient: vertical;
+   overflow: hidden;
+}
 
 /* media query section  */
 @media screen and (max-width: 991px) {
