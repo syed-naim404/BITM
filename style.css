@@ -98,7 +98,26 @@
 .select-onl-off {
    font-size: 1.25rem;
 }
-
+ /* carousel card  section */
+ .carousel-card {
+   border: 1px solid #6cc1186f;
+ }
+ .carousel-card:hover{
+   border: 1px solid #6cc118;
+ }
+ .carousel-card .card-text{
+   font-size: 12px;
+   font-weight: bold;
+   color: #254a7a;
+ }
+ .carousel-card .card-text img{
+   width: 28px;
+   height: 28px;
+   border: 1px solid #6cc118;
+   border-radius: 50%;
+   padding: 4px;
+   margin-right: 10px;
+ }
 /* card section  */
 .details {
    text-decoration: none;
@@ -156,7 +175,6 @@
    -webkit-box-orient: vertical;
    overflow: hidden;
 }
-
 /* media query section  */
 @media screen and (max-width: 991px) {
    /* navbar bitm logo size decrease */
