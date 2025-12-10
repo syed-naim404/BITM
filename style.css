@@ -227,11 +227,54 @@
    transform: scale(1.1);
 }
 /* partners section  */
-.card-size {
+.partners .card-size {
    width: 222px;
    height: 124px;
 }
-
+/* footer section  */
+.footer {
+   background-color: #0551ac;
+   padding-top: 32px;
+   padding-bottom: 16px;
+}
+.footer .footer-logo {
+   width: 144px;
+   height: 108px;
+   padding: 8px 12px;
+}
+.footer .footer-icon {
+   width: 32px;
+   height: 32px;
+   border: 1px solid #fff;
+   border-radius: 50%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.footer .footer-icon a {
+   text-decoration: none;
+   color: #fff;
+}
+.footer .footer-icon:hover {
+   background-color: rgba(108, 193, 24, 0.5);
+   color: #fff;
+}
+.footer .footer-heading {
+   color: #fff;
+   font-size: 1.25rem;
+}
+.footer .nav-item .nav-link {
+   color: #fff;
+   font-size: 1rem;
+}
+.footer .nav-item .nav-link:hover {
+   color: #6cc118;
+}
+.footer .collaboration {
+   margin-top: 16px;
+   border-radius: 3px;
+   background: linear-gradient();
+}
 /* media query section  */
 @media screen and (max-width: 991px) {
    /* navbar bitm logo size decrease */
