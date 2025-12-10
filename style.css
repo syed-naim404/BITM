@@ -177,7 +177,7 @@
 }
 /* about section  */
 .about {
-   background-color: #F8FEEA;
+   background-color: #f8feea;
 }
 .about img {
    max-height: 500px;
@@ -200,6 +200,31 @@
 }
 .know-more button:hover {
    background-color: #5aa80c;
+}
+/* about card section  */
+.about-card .info {
+   font-size: 30px;
+   font-family: sans-serif;
+   color: #1f2937;
+   line-height: 1.2;
+   padding: 0;
+   margin: 0;
+   font-weight: 600;
+}
+.about-card .info-title {
+   font-size: 14px;
+   font-family: sans-serif;
+   color: #6b7280;
+   font-weight: 600;
+}
+.about-card {
+   border: 0;
+   border-right: 4px solid #6cc118 !important;
+   cursor: pointer;
+   transition: transform 0.5s; 
+}
+.about-card:hover {
+   transform: scale(1.1);
 }
 
 /* media query section  */
@@ -239,5 +264,21 @@
       -webkit-line-clamp: 5;
       -webkit-box-orient: vertical;
       overflow: hidden;
+   }
+   /* about card section text responsive */
+   .about-card .info {
+      font-size: 23px;
+      font-family: sans-serif;
+      color: #1f2937;
+      line-height: 1.2;
+      padding: 0;
+      margin: 0;
+      font-weight: 600;
+   }
+   .about-card .info-title {
+      font-size: 12px;
+      font-family: sans-serif;
+      color: #6b7280;
+      font-weight: 600;
    }
 }
