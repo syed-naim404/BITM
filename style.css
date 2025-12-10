@@ -98,26 +98,26 @@
 .select-onl-off {
    font-size: 1.25rem;
 }
- /* carousel card  section */
- .carousel-card {
+/* carousel card  section */
+.carousel-card {
    border: 1px solid #6cc1186f;
- }
- .carousel-card:hover{
+}
+.carousel-card:hover {
    border: 1px solid #6cc118;
- }
- .carousel-card .card-text{
+}
+.carousel-card .card-text {
    font-size: 12px;
    font-weight: bold;
    color: #254a7a;
- }
- .carousel-card .card-text img{
+}
+.carousel-card .card-text img {
    width: 28px;
    height: 28px;
    border: 1px solid #6cc118;
    border-radius: 50%;
    padding: 4px;
    margin-right: 10px;
- }
+}
 /* card section  */
 .details {
    text-decoration: none;
@@ -175,6 +175,33 @@
    -webkit-box-orient: vertical;
    overflow: hidden;
 }
+/* about section  */
+.about {
+   background-color: #F8FEEA;
+}
+.about img {
+   max-height: 500px;
+   border-radius: 6px;
+}
+.about-para {
+   text-align: justify;
+   font-family: sans-serif;
+   font-size: 1rem;
+}
+.know-more button {
+   background-color: #6cc118;
+   border: 1px solid #6cc118;
+   padding: 4px 20px;
+}
+.know-more button a {
+   color: #fff;
+   text-decoration: none;
+   font-size: 14px;
+}
+.know-more button:hover {
+   background-color: #5aa80c;
+}
+
 /* media query section  */
 @media screen and (max-width: 991px) {
    /* navbar bitm logo size decrease */
@@ -205,5 +232,12 @@
    /* card footer button width 100% small device */
    .my-card .card-footer .button {
       width: 100%;
+   }
+   /* small device text overflow abou section paragraph */
+   .text-overflow-about {
+      display: -webkit-box;
+      -webkit-line-clamp: 5;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
    }
 }
