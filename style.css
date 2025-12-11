@@ -72,7 +72,7 @@
    border: 1px solid rgba(108, 193, 24, 0.522);
    border-top: 4px solid #6cc118;
 }
-.navbar .dropdown-menu-bg li .dropdown-item:hover {
+.dropdown-menu-bg li .dropdown-item:hover {
    background-color: #6cc118;
    border-radius: 4px;
    color: #fff;
@@ -278,8 +278,8 @@
 
 /* -------page section--------*/
 .page-title {
-   background-color: #F8FAFC;
-   border: 0.5px solid #F1F2F4;
+   background-color: #f8fafc;
+   border: 0.5px solid #f1f2f4;
 }
 .page-title .page-title-text {
    font-size: 20px;
