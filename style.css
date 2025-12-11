@@ -275,6 +275,18 @@
    border-radius: 3px;
    background: linear-gradient();
 }
+
+/* -------page section--------*/
+.page-title {
+   background-color: #F8FAFC;
+   border: 0.5px solid #F1F2F4;
+}
+.page-title .page-title-text {
+   font-size: 20px;
+   color: #6cc118;
+   text-align: center;
+   font-weight: 600;
+}
 /* media query section  */
 @media screen and (max-width: 991px) {
    /* navbar bitm logo size decrease */
