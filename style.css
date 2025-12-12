@@ -356,6 +356,21 @@
    font-weight: bold;
    color: #4b5563;
 }
+/* career page  */
+.career .title{
+   font-size: 24px;
+   color: #1d4ed8;
+   font-weight: 600;
+}
+.career .career-text-color{
+   font-size: 16px;
+   color: #4b5563;
+}
+.career .title-section{
+   font-size: 20px;
+   color: #374a51;
+   font-weight: bold;
+}
 
 /* media query section  */
 @media screen and (max-width: 991px) {
