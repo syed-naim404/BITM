@@ -24,7 +24,7 @@
 /* navbar section  */
 .navbar {
    background-color: #0551af;
-   padding: 8px 0;
+   padding: 4px 0;
 }
 .navbar .navbar-nav .nav-item .nav-link {
    color: #fff;
@@ -306,6 +306,55 @@
    font-size: 14px;
    line-height: 1.5;
    margin: 0;
+}
+/* BITM Secretariats section  */
+.secretariats-card .img-bg-color {
+   background-color: #ecfccb;
+}
+.secretariats-card .img-bg-color img {
+   width: 135px;
+   height: 135px;
+   border-radius: 50%;
+}
+.secretariats-card .card-title {
+   color: #6cc118;
+   font-size: 18px;
+}
+.secretariats-card .position {
+   color: #1f2937;
+   font-size: 16px;
+   font-weight: 600;
+}
+.secretariats-card .contact {
+   font-size: 14px;
+   color: #1f2937;
+}
+.secretariats-card .contact .fa-solid {
+   color: #0551ac;
+   margin-right: 4px;
+}
+.secretariats-card .card-footer {
+   background-color: #f1f5f9;
+   padding: 8px 0;
+}
+.secretariats-card .footer-icon {
+   width: 32px;
+   height: 32px;
+   border: 1px solid #d9e4ed;
+   border-radius: 50%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: #0551ac;
+}
+.secretariats-card .footer-icon:hover {
+   background-color: #0551ac;
+   color: #fff;
+}
+.secretariats-card .follow {
+   font-size: 16px;
+   font-weight: bold;
+   color: #4b5563;
 }
 
 /* media query section  */
