@@ -3,9 +3,475 @@
    <head>
       <meta charset="UTF-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <title>Document</title>
+      <link rel="icon" href="../img/favicon bitm.png" />
+      <title>About | BITM</title>
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" />
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css" />
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" />
+      <link rel="stylesheet" href="../style.css" />
    </head>
    <body>
-      about page 404
+      <!-- header section  -->
+      <header class="header">
+         <div class="container">
+            <div class="row">
+               <div class="col-lg-6 d-none d-lg-block">
+                  <span class="phone me-1">
+                     <i class="fa-solid fa-phone"></i>
+                     +88 09638-016499 (10:00 am - 06.00 pm)
+                  </span>
+                  <span class="email"><i class="fa-solid fa-envelope"> </i> info@bitm.org.bd</span>
+               </div>
+               <div class="col-lg-6 text-end">
+                  <span class="login me-1"> <i class="fa-solid fa-user"></i><a href="login.html"> Login</a> </span>
+                  <span class="reg"> <i class="fa-solid fa-user-plus"></i> <a href="register.html"> Register</a> </span>
+               </div>
+            </div>
+         </div>
+      </header>
+      <!-- navbar section  -->
+      <nav class="navbar navbar-expand-lg">
+         <div class="container">
+            <a class="bitm-logo navbar-brand" href="../index.html"
+               ><img src="../img/bitm logo.png" class="img-fluid"
+            /></a>
+            <button
+               class="navbar-toggler"
+               type="button"
+               data-bs-toggle="offcanvas"
+               data-bs-target="#offcanvasRight"
+               aria-controls="offcanvasRight"
+            >
+               <i class="bi bi-list"></i>
+            </button>
+            <div class="collapse navbar-collapse">
+               <ul class="hover-navlink navbar-nav mx-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                     <a class="nav-link" href="../index.html">Home</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                     <a class="nav-link" href="#">Our Courses</a>
+                     <ul class="dropdown-menu-bg dropdown-menu px-2">
+                        <li><a class="dropdown-item" href="../index.html">All Courses </a></li>
+                        <li>
+                           <a class="dropdown-item" href="graphics-&-multimedia.html">Graphics & Multimedia</a>
+                        </li>
+                        <li>
+                           <a class="dropdown-item" href="web-&-software-development.html"
+                              >Web & Software Development</a
+                           >
+                        </li>
+                        <li><a class="dropdown-item" href="digital-marketing.html">Digital Marketing</a></li>
+                        <li>
+                           <a class="dropdown-item" href="animation-&-visualization.html"
+                              >3D Animation & Visualization</a
+                           >
+                        </li>
+                        <li>
+                           <a class="dropdown-item" href="data-science-&-analytics.html">Data Science & Analytics</a>
+                        </li>
+                        <li>
+                           <a class="dropdown-item" href="network-&-server-administration.html"
+                              >Network & Server Administration</a
+                           >
+                        </li>
+                        <li>
+                           <a class="dropdown-item" href="cyber-security-&-cloud-computing.html"
+                              >Cyber Security and Cloud Computing</a
+                           >
+                        </li>
+                        <li>
+                           <a class="dropdown-item" href="internet-of-things.html">Internet of Things (IOT)</a>
+                        </li>
+                        <li>
+                           <a class="dropdown-item" href="robotics-&-automation.html">Robotics & Automation</a>
+                        </li>
+                        <li>
+                           <a class="dropdown-item" href="personal-development.html">Personal Development</a>
+                        </li>
+                        <li>
+                           <a class="dropdown-item" href="business-&-management.html">Business & Management</a>
+                        </li>
+                        <li>
+                           <a class="dropdown-item" href="computer-&-it-support.html">Computer & IT Support</a>
+                        </li>
+                     </ul>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="pgd.html">PGD</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="rpl.html">RPL</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                     <a class="nav-link" href="#">About Us</a>
+                     <ul class="dropdown-menu-bg dropdown-menu px-2">
+                        <li><a class="dropdown-item" href="about.html">About BITM </a></li>
+                        <li><a class="dropdown-item" href="board-of-directors.html">Board of Directors </a></li>
+                        <li><a class="dropdown-item" href="bitm- secretariats.html">BITM Secretariats</a></li>
+                        <li><a class="dropdown-item" href="career.html">Career</a></li>
+                        <li><a class="dropdown-item" href="partners.html">Partners</a></li>
+                        <li>
+                           <a class="dropdown-item" href="regular-training-programs.html">Regular Training Programs</a>
+                        </li>
+                        <li>
+                           <a class="dropdown-item" href="international-training-programs.html"
+                              >International Training Programs</a
+                           >
+                        </li>
+                        <li><a class="dropdown-item" href="terms-&-conditions.html">Terms & Conditions</a></li>
+                     </ul>
+                  </li>
+               </ul>
+               <a class="basis-logo navbar-brand d-none d-lg-block" href="https://basis.org.bd/" target="_blank"
+                  ><img src="../img/basis logo.png" class="img-fluid"
+               /></a>
+            </div>
+         </div>
+      </nav>
+      <!-- offcanvas section  -->
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+         <div class="offcanvas-header">
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+         </div>
+         <div class="offcanvas-body">
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+               <li class="nav-item">
+                  <a class="nav-link" href="../index.html">Home</a>
+               </li>
+               <li class="nav-item dropdown">
+                  <a
+                     class="nav-link dropdown-toggle"
+                     href="#"
+                     role="button"
+                     data-bs-toggle="dropdown"
+                     aria-expanded="false"
+                  >
+                     Our Courses
+                  </a>
+                  <ul class="dropdown-menu dropdown-menu-bg px-2">
+                     <li><a class="dropdown-item" href="../index.html">All Courses </a></li>
+                     <li><a class="dropdown-item" href="graphics-&-multimedia.html">Graphics & Multimedia</a></li>
+                     <li>
+                        <a class="dropdown-item" href="web-&-software-development.html">Web & Software Development</a>
+                     </li>
+                     <li><a class="dropdown-item" href="digital-marketing.html">Digital Marketing</a></li>
+                     <li>
+                        <a class="dropdown-item" href="animation-&-visualization.html">3D Animation & Visualization</a>
+                     </li>
+                     <li>
+                        <a class="dropdown-item" href="data-science-&-analytics.html">Data Science & Analytics</a>
+                     </li>
+                     <li>
+                        <a class="dropdown-item" href="network-&-server-administration.html"
+                           >Network & Server Administration</a
+                        >
+                     </li>
+                     <li>
+                        <a class="dropdown-item" href="cyber-security-&-cloud-computing.html"
+                           >Cyber Security and Cloud Computing</a
+                        >
+                     </li>
+                     <li><a class="dropdown-item" href="internet-of-things.html">Internet of Things (IOT)</a></li>
+                     <li><a class="dropdown-item" href="robotics-&-automation.html">Robotics & Automation</a></li>
+                     <li><a class="dropdown-item" href="personal-development.html">Personal Development</a></li>
+                     <li><a class="dropdown-item" href="business-&-management.html">Business & Management</a></li>
+                     <li><a class="dropdown-item" href="computer-&-it-support.html">Computer & IT Support</a></li>
+                  </ul>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="pgd.html">PGD</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="rpl.html">RPL</a>
+               </li>
+               <li class="nav-item dropdown">
+                  <a
+                     class="nav-link dropdown-toggle"
+                     href="#"
+                     role="button"
+                     data-bs-toggle="dropdown"
+                     aria-expanded="false"
+                  >
+                     About Us
+                  </a>
+                  <ul class="dropdown-menu dropdown-menu-bg px-2">
+                     <li><a class="dropdown-item" href="about.html">About BITM </a></li>
+                     <li><a class="dropdown-item" href="board-of-directors.html">Board of Directors </a></li>
+                     <li><a class="dropdown-item" href="bitm- secretariats.html">BITM Secretariats</a></li>
+                     <li><a class="dropdown-item" href="career.html">Career</a></li>
+                     <li><a class="dropdown-item" href="partners.html">Partners</a></li>
+                     <li>
+                        <a class="dropdown-item" href="regular-training-programs.html">Regular Training Programs</a>
+                     </li>
+                     <li>
+                        <a class="dropdown-item" href="international-training-programs.html"
+                           >International Training Programs</a
+                        >
+                     </li>
+                     <li><a class="dropdown-item" href="terms-&-conditions.html">Terms & Conditions</a></li>
+                  </ul>
+               </li>
+            </ul>
+         </div>
+      </div>
+      <!-- title section  -->
+      <section class="page-title py-4 my-3">
+         <div class="container">
+            <div class="row">
+               <div class="col-12">
+                  <p class="page-title-text card-text">About BITM</p>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- main section  -->
+      <section class="about-page py-4 py-lg-5">
+         <div class="container py-4 shadow rounded-3">
+            <!-- images  -->
+            <div class="col-12 text-center pb-2">
+               <img src="../img/about poster.jpg" class="about-poster img-fluid shadow-lg" />
+            </div>
+            <!--section 1-->
+            <div class="py-2">
+               <p class="size-16">
+                  To address the skill gap of HR in the industry, BASIS started its own training activities in 2007.
+                  Later in 2012, BASIS institutionalized its training activities and set up BASIS Institute of
+                  Technology & Management Limited (BITM) with the support of World Bank. BITM was established with a
+                  vision to be a world-class IT institute in Bangladesh for the purpose of enhancing the competitiveness
+                  of the IT Sector in Bangladesh by creating a pool of qualified IT professionals and quality certified
+                  IT companies. To become a Center of Excellence in Information Technology and Knowledge Management for
+                  a more proactive and responsive extension service through innovation, dedicated research and
+                  development teams and management expertise tied with a strong technology focus. Our mission is to meet
+                  the needs of IT Industry through effective learning, teaching and development of skills. Currently
+                  BITM has a capacity to train over 5,000 professionals (both entry level & management level).
+               </p>
+            </div>
+            <!--section 2-->
+            <div class="py-2">
+               <p class="size-16"><b>MISSION & VISION:</b></p>
+               <p class="size-16">
+                  To become a <b><i>Center of Excellence</i></b> in Information Technology and Knowledge Management for
+                  a more proactive and responsive extension service through innovation, dedicated research and
+                  development teams and management expertise tied with a strong technology focus. Our mission is to meet
+                  the needs of IT Industry through effective learning, teaching and development of skills.
+                  <b>Our Five Key Themes linked to the Mission and Vision:- </b>
+               </p>
+               <ul class="size-16">
+                  <li>Putting better learning and teaching at the heart of what we do.</li>
+                  <li>Creating a truly training atmosphere.</li>
+                  <li>Getting better at "Putting Learners and Industry First".</li>
+                  <li>Leading (leadership not management), and</li>
+                  <li>
+                     Building the right facilities and human resources we need to do the teaching and learning better.
+                  </li>
+               </ul>
+            </div>
+            <!--section 3-->
+            <div class="py-2">
+               <p class="size-16"><b>CORE VALUES:</b></p>
+               <p class="size-16">
+                  BITM was established with a vision to be a world-class IT institute in Bangladesh for the purpose of
+                  enhancing the competitiveness of the IT Sector in Bangladesh by creating a pool of qualified IT
+                  professionals and quality certified IT companies.It has some core values:
+               </p>
+               <ul class="size-16">
+                  <li>
+                     <b>Industry</b>-We cultivate partnerships that develop solutions to industry challenges which are
+                     important to economic vitality and quality of services.
+                  </li>
+                  <li>
+                     <b>Excellence</b>-We strive for excellence in instruction and service by upholding high academic
+                     and professional standards, providing a quality educational environment, and continuously seeking
+                     improvement in all aspects of our work.
+                  </li>
+                  <li>
+                     <b>Innovation</b>-We pursue excellence in teaching and learning through encouragement and support
+                     of creativity, experimentation, imagination, originality, entrepreneurial spirit and visionary
+                     leadership.
+                  </li>
+                  <li>
+                     <b>Integrity</b>-We strive to demonstrate high standards of ethical conduct and to celebrate
+                     honesty, openness, and trust as keys to our relationships.
+                  </li>
+                  <li>
+                     <b>Respect</b>-We recognize and value the uniqueness, diversity, and dignity of every individual.
+                  </li>
+               </ul>
+            </div>
+            <!-- section 4 -->
+            <div class="py-2">
+               <p class="size-16"><b>Key Achievements</b></p>
+               <ul class="size-14">
+                  <li><b>Best Training Institute Award</b> from SEIP (govt.) (2023)</li>
+                  <li><b>AI Training Collaboration</b> with Bangladesh Maritime University (BMU), Dhaka</li>
+                  <li>Collaboration with the <b>International Trade Centre (ITC)</b>, Geneva, Switzerland</li>
+                  <li>
+                     <b>Freelancing Short Course Collaboration</b> with Bangladesh Academy for Rural Development (BARD)
+                     Cumilla
+                  </li>
+                  <li><b>Approval from NSDA</b> as a Certified Training Institute</li>
+                  <li><b>Mou Signed with 29 Collaborative Partners Training Institute</b></li>
+                  <li><b>Mou Signed with 4 Universities</b> for PGD Programs</li>
+                  <li><b>Implementation of RPL Program</b> under NSDA</li>
+                  <li><b>Conducted Industrial Attachment Training Programs</b> for Polytechnic Students</li>
+                  <li><b>Contract Signing under ASSET Project</b></li>
+                  <li><b>ASSET RPL Project Contract Signing</b></li>
+                  <li><b>SICIP Project Contract Signing</b></li>
+                  <li><b>Training Implementation Partner</b> of JICA's B-TopSE Program</li>
+                  <li>
+                     <b>BASIS-SEIP Project (Phase 1)</b>, Successfully training completed <b>30,000</b> participants
+                  </li>
+                  <li>
+                     <b>BASIS-SEIP Project (Phase 2)</b>, Successfully training completed <b>8,000</b> participants
+                  </li>
+               </ul>
+               <hr class="m-0" />
+            </div>
+            <!-- section 5 -->
+            <div class="py-2">
+               <p class="size-16"><b>Milestone Achievements</b></p>
+               <ul class="size-14">
+                  <li><b>Total Trainees Trained:</b> 60,000</li>
+                  <li><b>Male Participants:</b> 50,000</li>
+                  <li><b>Female Participants:</b> 10,000</li>
+                  <li><b>Job Placement Rate (under SEIP)</b>: 70%</li>
+               </ul>
+               <hr class="m-0" />
+            </div>
+            <!-- section 6 -->
+            <div class="py-2">
+               <p class="size-16"><b>Infrastructure & Facilities</b></p>
+               <ul class="size-14">
+                  <li>A pool of experienced <b>trainers with a minimum of 3 years of industry experience</b></li>
+                  <li><b>Trainer selection </b>based on in-depth field expertise</li>
+                  <li><b>9 well-equippedtraining labs</b>, each accommodating <b>25-30 trainees</b></li>
+                  <li><b>Individual PC</b> and <b>Multimedia Projector</b> per lab</li>
+                  <li><b>High-speed internet</b> connectivity in all labs</li>
+                  <li><b>Server</b> room and <b>24-hour CCTV surveillance</b> for security</li>
+                  <li><b>Dedicated conference room</b> for meetings and discussions</li>
+               </ul>
+               <hr class="m-0" />
+            </div>
+            <!-- section 7  -->
+            <div class="py-2">
+               <p class="size-16"><b>Programs Offered</b></p>
+               <ul class="size-14">
+                  <li><b>Offline Courses</b></li>
+                  <li><b>Online Courses</b></li>
+                  <li><b>Collaborative Training Programs with 29 institutes</b></li>
+                  <li><b>Postgraduate Diploma (PGD) Courses</b></li>
+                  <li><b>Recognition of Prior Learning (RPL) Courses under NSDA</b></li>
+                  <li><b>Industrial Attachment Training</b></li>
+                  <li><b>Corporate Training Programs</b></li>
+               </ul>
+               <hr class="m-0" />
+            </div>
+            <!-- section 8 -->
+            <div class="py-2">
+               <p class="size-16"><b>BENEFITS:</b></p>
+               <p class="size-16"><b>For the industry/employers</b></p>
+               <ul class="size-16">
+                  <li>Qualified/skilled resources will be readily available upon graduation</li>
+                  <li>
+                     Ability to assess current and future employees to aid in the development and training planning
+                  </li>
+               </ul>
+               <p class="size-16"><b>For our Development Partners</b></p>
+               <ul class="size-16">
+                  <li>Exchange of trade and commerce through quality and quantity of workforce</li>
+               </ul>
+               <p class="size-16"><b>For Employees/University Graduates</b></p>
+               <ul class="size-16">
+                  <li>Ability to find employment in their field of study quickly</li>
+               </ul>
+               <p class="size-16"><b>For Universities</b></p>
+               <ul class="size-16">
+                  <li>Higher employment statistics</li>
+                  <li>Participation in the development of curriculum to meet industry needs</li>
+                  <li>Ability to share in research and project opportunities</li>
+               </ul>
+                 <p class="size-16"><b>For Government</b></p>
+                   <ul class="size-16">
+                     <li>Creation of quality employment for educated youth</li>
+                     <li>Promotion of Bangladesh as a middle income country</li>
+                     <li>Support of Digital Bangladesh 2021 mandate</li>
+                   </ul>
+            </div>
+         </div>
+      </section>
+      <!-- footer section  -->
+      <footer class="footer">
+         <div class="container">
+            <div class="row">
+               <div class="col-12 col-lg-3">
+                  <a href="../index.html"><img src="../img/bitm logo.png" class="footer-logo img-fluid" /></a>
+                  <div class="d-flex gap-3 pb-3">
+                     <div class="footer-icon">
+                        <a href="https://www.facebook.com/BASIS.BITM" target="_blank"
+                           ><i class="fa-brands fa-facebook-f"></i
+                        ></a>
+                     </div>
+                     <div class="footer-icon">
+                        <a href="https://www.linkedin.com/company/basis-bitm/" target="_blank"
+                           ><i class="fa-brands fa-linkedin-in"></i
+                        ></a>
+                     </div>
+                     <div class="footer-icon">
+                        <a href="https://x.com/BITM_BD" target="_blank"> <i class="fa-brands fa-x-twitter"></i></a>
+                     </div>
+                     <div class="footer-icon">
+                        <a href="https://www.youtube.com/@bitmchannel5505" target="_blank"
+                           ><i class="fa-brands fa-youtube"></i
+                        ></a>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-12 col-lg-3">
+                  <p class="footer-heading">Important Links</p>
+                  <ul class="navbar-nav">
+                     <li class="nav-item">
+                        <a href="../index.html" class="nav-link"
+                           ><i class="me-1 fa-solid fa-angle-right"></i>All Courses</a
+                        >
+                     </li>
+                     <li class="nav-item">
+                        <a href="../index.html" class="nav-link"
+                           ><i class="me-1 fa-solid fa-angle-right"></i>Upcoming Events</a
+                        >
+                     </li>
+                     <li class="nav-item">
+                        <a href="about.html" class="nav-link"><i class="me-1 fa-solid fa-angle-right"></i>About BITM</a>
+                     </li>
+                  </ul>
+               </div>
+               <div class="col-12 col-lg-3">
+                  <p class="footer-heading">Office Address</p>
+                  <ul class="navbar-nav">
+                     <li class="nav-item">
+                        <a href="https://maps.app.goo.gl/YRhagEerMgDzh4Y58" target="_blank" class="nav-link fs-6"
+                           ><i class="me-1 fa-solid fa-location-dot"></i>BDBL Bhaban (Level-3, East), 12 Karwan Bazar,
+                           Dhaka-1215</a
+                        >
+                     </li>
+                  </ul>
+               </div>
+               <div class="col-12 col-lg-3">
+                  <p class="footer-heading">Contact Us</p>
+                  <ul class="navbar-nav">
+                     <li class="nav-item">
+                        <a href="" class="nav-link fs-5"><i class="me-1 fa-solid fa-phone"></i>+88 09638-016499</a>
+                     </li>
+                     <li class="nav-item">
+                        <a href="" class="nav-link"><i class="mx-1 fa-solid fa-envelope fs-6"></i>info@bitm.org.bd</a>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+            <img src="../img/collaborative partners.png" class="collaboration img-fluid" />
+         </div>
+      </footer>
+      <!-- jscdn  -->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
    </body>
 </html>
