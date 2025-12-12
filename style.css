@@ -371,12 +371,32 @@
    color: #374a51;
    font-weight: bold;
 }
+/* partners pages section  */
+
+
+/* regular training programs pages*/
+.reguler-program p{
+   margin-bottom: 0;
+   font-weight: bold;
+}
+.reguler-program p, ul{
+   font-size: 15px;
+   color: #111;
+}
+
+
+
+
+
+
+
 /* Terms & Conditions pages */
 .conditions p{
    font-size: 16px;
    color: #111;
    text-align: justify;
 }
+
 
 /* media query section  */
 @media screen and (max-width: 991px) {
