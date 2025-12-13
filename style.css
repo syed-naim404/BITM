@@ -357,46 +357,44 @@
    color: #4b5563;
 }
 /* career page  */
-.career .title{
+.career .title {
    font-size: 24px;
    color: #1d4ed8;
    font-weight: 600;
 }
-.career .career-text-color{
+.career .career-text-color {
    font-size: 16px;
    color: #4b5563;
 }
-.career .title-section{
+.career .title-section {
    font-size: 20px;
    color: #374a51;
    font-weight: bold;
 }
 /* partners pages section  */
+.partners img{
+   width: 100%;
+   height: 124px;
 
+}
 
 /* regular training programs pages*/
-.reguler-program p{
+.reguler-program p {
    margin-bottom: 0;
    font-weight: bold;
 }
-.reguler-program p, ul{
+.reguler-program p,
+ul {
    font-size: 15px;
    color: #111;
 }
 
-
-
-
-
-
-
 /* Terms & Conditions pages */
-.conditions p{
+.conditions p {
    font-size: 16px;
    color: #111;
    text-align: justify;
 }
-
 
 /* media query section  */
 @media screen and (max-width: 991px) {
