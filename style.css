@@ -399,47 +399,47 @@ ul {
    color: #111;
    text-align: justify;
 }
-/* login page section  */
+/* login and register page section  */
 /* left section  */
-.login-section .left-section h2 {
+.form-section .left-section h2 {
    color: #1f2937;
    font-size: 30px;
    font-weight: bold;
 }
-.login-section .left-section p {
+.form-section .left-section p {
    color: #1f2937;
    font-size: 16px;
 }
-.login-section img {
+.form-section .left-section img {
    width: 216px;
 }
 /* right section  */
-.login-section .form-section h3 {
+.form-section .right-section h3 {
    color: #0551ac;
    font-size: 36px;
    font-weight: bold;
 }
-.login-section .form-section p {
+.form-section .right-section p {
    font-weight: 16px;
    color: #6b7280;
 }
-.login-section .form-section .form-control {
-   padding: 14px 20px;
+.form-section .right-section .form-control {
+   padding: 12px 20px;
    border-radius: 30px;
    background-color: #f1f5f9;
 }
-.login-section .form-section .form-control::placeholder {
+.form-section .right-section .form-control::placeholder {
    font-size: 16px;
    font-weight: bold;
    color: #9ca3af;
 }
-.login-section .form-section .login {
+.form-section .right-section .login {
    font-size: 16px;
    font-weight: bold;
    background-color: #6cc118;
    border: none;
 }
-.login-section .form-section .forgot-pass {
+.form-section .right-section .forgot-pass {
    font-size: 15px;
    color: #1f2937;
 }
