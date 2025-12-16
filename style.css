@@ -443,6 +443,251 @@ ul {
    font-size: 15px;
    color: #1f2937;
 }
+/* courses details section  */
+.courses-detail {
+   background-color: #f7fee7;
+}
+.detail-top-section .title {
+   font-size: 30px;
+   color: #254a7a;
+   font-weight: 600;
+}
+.detail-top-section .short-info {
+   font-size: 16px;
+   color: #1f2937;
+}
+.detail-top-section .total {
+   background-color: #0551ac;
+   color: #fff;
+   padding: 10px;
+   border-radius: 6px;
+}
+.detail-top-section .date-time {
+   font-size: 13px;
+   color: #222;
+   font-weight: bold;
+   background-color: #ecfccb;
+   border: 1px solid #6cc118;
+}
+.detail-top-section .date-time .fa-solid {
+   color: #6cc118;
+   margin-right: 5px;
+}
+.detail-top-section .tk {
+   font-size: 20px;
+   color: #374151;
+   font-weight: 600;
+   background-color: #f1f5f9;
+   border-radius: 6px;
+}
+.detail-top-section .tk .btn {
+   background-color: #6cc118;
+   color: #fff;
+   margin-right: 10px;
+   font-size: 16px;
+}
+/* Course Details  */
+.course-details h3 {
+   font-size: 24px;
+   color: #374151;
+   font-weight: 600;
+   padding: 24px 0;
+   margin: 0;
+}
+.course-details .navbar {
+   background-color: transparent;
+}
+.course-details .navbar .btn {
+   padding: 1px 50px;
+   color: #1f2937;
+   font-size: 18px;
+   font-weight: bold;
+}
+.course-details .navbar .btn1 {
+   background-color: #6cc118;
+   padding: 0 50px;
+   color: #fff;
+   font-size: 18px;
+   font-weight: bold;
+}
+.description {
+   height: 50vh;
+   border: 1px solid silver;
+   border-radius: 6px;
+   overflow: auto;
+   padding: 20px;
+}
+.description .navbar {
+   background-color: transparent;
+   padding: 10px 0;
+   border: 1px aolis ailcwe;
+}
+.description h5 {
+   font-size: 16px;
+   font-weight: 600;
+   color: #1f2937;
+   margin: 0;
+}
+.description p {
+   font-size: 14px;
+   text-align: justify;
+   color: #222;
+}
+.description ul li {
+   font-size: 14px;
+   color: #222;
+}
+.description ol li {
+   font-size: 14px;
+   color: #222;
+}
+/* instructors section  */
+.instructors .img-box {
+   width: 64px;
+   height: 64px;
+   border-radius: 50%;
+}
+.instructors .img-box img {
+   width: 100%;
+   height: 100%;
+   object-fit: contain;
+   border-radius: 50%;
+}
+.instructors .card-title {
+   font-size: 18px;
+   color: #000;
+}
+.instructors .card-text {
+   font-size: 14px;
+   color: #4b5563;
+}
+.instructors .card1 {
+   transition: transform 0.5s;
+   cursor: pointer;
+}
+.instructors .card1:hover {
+   transform: scale(1.1);
+   border: 1px solid #6cc118;
+}
+/* modal instructor details section */
+.modal .modal-body .card .card-title {
+   font-size: 15px;
+   color: #000;
+}
+.modal .modal-body .card .card-text {
+   font-size: 15px;
+   color: #000;
+   padding: 4px 0;
+}
+.modal .modal-body .card .social {
+   width: 26px;
+   height: 26px;
+   border: 1px solid rgb(230, 230, 230);
+   border-radius: 50%;
+   margin: 0px 4px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.modal .modal-body .card .social i {
+   color: #6cc118;
+   font-size: 12px;
+}
+/* summary section */
+.modal-body .summary {
+   background-color: #f0fdf4;
+   padding: 12px;
+   border-radius: 6px;
+}
+.modal-body .summary p {
+   color: #6cc118;
+   font-size: 18px;
+   font-weight: bold;
+}
+.modal-body .text {
+   height: 20vh;
+   border: 1px solid silver;
+   overflow: auto;
+   margin: 14px 0;
+   border-radius: 4px;
+   padding: 8px;
+}
+.modal-body .text p {
+   font-size: 16px;
+   color: #111;
+   text-align: justify;
+}
+.modal-body .certified {
+   background-color: #f0fdf4;
+   padding: 12px;
+   border-radius: 6px;
+   margin: 10px 0;
+   border: 1px solid rgb(237, 237, 237);
+}
+.modal-body .certified p {
+   color: #54a811;
+   font-size: 14px;
+}
+/* course review section  */
+.course-review h3 {
+   font-size: 24px;
+   color: #374151;
+   font-weight: 600;
+   padding: 24px 0;
+   margin: 0;
+}
+.course-review .img-box {
+   width: 64px;
+   height: 64px;
+   border-radius: 50%;
+}
+.course-review .img-box img {
+   width: 100%;
+   height: 100%;
+   object-fit: contain;
+   border-radius: 50%;
+}
+.course-review .card {
+   border: 0;
+   border-top: 2px solid #5aa80c;
+   border-radius: 0;
+   background-color: #f8fafc;
+}
+.course-review .card-body .card-title {
+   color: #000;
+   font-size: 18px;
+   font-weight: 600;
+}
+.course-review .card-body .card-text .fa-star {
+   color: #fbbf24;
+}
+.course-review .card small {
+   text-align: justify;
+   color: #000;
+   font-size: 16px;
+   padding: 6px 10px;
+}
+/* add review section  */
+.add-review {
+   padding: 24px 0;
+}
+.add-review .fa-solid {
+   color: #6cc118;
+   font-size: 16px;
+}
+.add-review p {
+   color: #000;
+   font-size: 16px;
+   font-weight: bold;
+   margin: 0 10px;
+}
+.add-review .btn {
+   background-color: #6cc118;
+   color: #fff;
+   font-weight: bold;
+   border-radius: 0;
+}
+
 /* media query section  */
 @media screen and (max-width: 991px) {
    /* navbar bitm logo size decrease */
@@ -500,5 +745,12 @@ ul {
    /* about page images */
    .about-page .about-poster {
       width: 100%;
+   }
+   /* course details section  */
+   .course-details .navbar .btn {
+      padding: 0 10px;
+   }
+   .course-details .navbar .btn1 {
+      padding: 0 10px;
    }
 }
